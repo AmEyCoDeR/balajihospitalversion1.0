@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&family=Luxurious+Roman&family=Roboto:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: none;
+}
+
+.navBr{
+    display: block;
+    background: rgb(126, 217, 87);
+    height: auto;
+}
+
+.nav ul{
+    display: flex;
+}
+
+
+body div nav ul div{
+    padding: 2%;
+}
+
+.logo{
+    border: solid 3px white;
+    border-radius: 50px;
+    margin: 1% 1% 0.5% 1%;
+}
+
+.linkAncors{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2%;
+    display: flex;
+    user-select: none;
+}
+.linkAncors:hover{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2%;
+    display: flex;
+    user-select: none;
+}
+.links{
+    display: none;
+}
+.Nav_close_les_width{
+    display: none;
+}
+#secAbtUs , #secPublcns , #secChannel , #secBlogs , #secProjects{
+    display: none;
+}
+#secFAQ , .secFaq{
+    display: none;
+}
+
+.b4_visible_data{
+    display: flex;
+}
+
+.clr_modes{
+    float: right;
+    background: none;
+    border: none;
+}
+
+.nav_open-close_b{
+    padding: 1vh;
+    background: none;
+    border: none;
+    font-size: 3vw;
+}
+.mobNavHeadr{
+    padding: 3vh 1rem 3vh 0 ;
+    font-family: Roboto;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 3vw;
+}
+@media only screen and (max-width: 536px){
+	.nav_open-close_b{
+    padding: 1vh;
+    background: none;
+    border: none;
+    font-size: 1rem;
+}
+.mobNavHeadr{
+    padding: 3vh 1rem 3vh 0 ;
+    font-family: Roboto;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+}}
+
+.read {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(126, 217, 87);
+    border-bottom-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+/* The hero image 
+.hero-image {
+  background-image: url("B1.jpg");
+  height: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Place text in the middle of the image 
+.hero-text {
+    padding: 15%;
+}
+*/
+
+.imgfordesk{
+    display: none;
+}
+
+.imgformob{
+   display: block;
+}

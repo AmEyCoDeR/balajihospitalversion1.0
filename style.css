@@ -1,0 +1,135 @@
+ /* CSS reset */
+
+ @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .nav {
+     background: rgb(126, 217, 87);
+     height: auto;
+     min-width: 467px;
+ }
+
+ .navBr {
+     display: none;
+ }
+
+ .nav ul {
+     display: flex;
+ }
+
+
+ body div nav ul div {
+     padding: 2%;
+ }
+
+ .logo {
+     border: solid 3px white;
+     border-radius: 50px;
+     margin: 1% 1% 0.5% 1%;
+ }
+
+ .linkAncors {
+     text-decoration: none;
+     color: white;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding: 2%;
+     display: flex;
+     user-select: none;
+ }
+
+ .linkAncors:hover {
+     text-decoration: none;
+     color: black;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding: 2%;
+     display: flex;
+     user-select: none;
+ }
+
+
+ /* The hero image 
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read 
+  background-image: url("B1.jfif");
+  /* Position and center the image to scale nicely on all screens 
+  height: 15%;
+
+}
+
+/* Place text in the middle of the image 
+.hero-text {
+    padding: 15%;
+}
+*/
+ .yt_videos {
+     padding-top: 1px;
+     border: 1px solid rgb(126, 217, 87);
+     border-radius: 5px;
+     display: flex;
+ }
+
+ #secAbtUs,
+ #secPublcns,
+ #secChannel,
+ #secBlogs,
+ #secProjects {
+     display: none;
+ }
+
+ #secFAQ,
+ .secFaq {
+     display: none;
+ }
+
+ #Blog1 {
+     color: black;
+     text-align: center;
+ }
+
+ .dropdown {
+     border-bottom: none;
+     text-decoration: none;
+     color: white;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding: 2%;
+     display: flex;
+     user-select: none;
+ }
+
+ .dropdown:hover {
+     border-bottom: none;
+     text-decoration: none;
+     color: white;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding: 2%;
+     display: flex;
+     user-select: none;
+ }
+
+ .read {
+     width: 200px;
+     height: 50px;
+     border-radius: 10px;
+     cursor: pointer;
+     background: rgb(126, 217, 87);
+     border-bottom-color: white;
+     border-top-color: white;
+     border-right-color: white;
+     border-left-color: white;
+     color: white;
+     font-size: 20px;
+     outline: none;
+     border: none;
+ }
+
+ .imgfordesk {
+     display: block;
+ }
+
+ .imgformob {
+     display: none;
+ }
